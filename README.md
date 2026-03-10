@@ -147,27 +147,48 @@ The solver is intended to run in a **FEniCSx environment with PETSc support**.
 
 ---
 
-# Typical Workflow
-
-A typical workflow for running a Helmholtz resonator simulation is:
-
-1. Generate the mesh
-python mesh_RH_sector.py
-
-
-2. Estimate the resonance frequency
-python resonance_estimate.py
-
-
-3. Run the FEM solver
-python Solver_RH_MPC.py
-
-
----
-
 # Author
 
 Michele Cozzolino  
 MSc Mechanical Engineering
 
 Development of an **open-source finite element solver for thermoviscous acoustics** aimed at modeling dissipative acoustic phenomena in confined fluid domains.
+
+
+# References
+
+The implementation and validation cases included in this repository are based on classical results in thermoviscous acoustics and on open-source finite element tools.
+
+[1] W. R. Kampinga, *Viscothermal Acoustics Using Finite Elements: Analysis Tools for Engineers*, PhD thesis, University of Twente, 2010.
+
+[2] M. R. Stinson, “The propagation of plane sound waves in narrow and wide circular tubes, and generalization to uniform tubes of arbitrary cross-sectional shape,” *Journal of the Acoustical Society of America*, vol. 89, pp. 550–558, 1991.
+
+[3] G. Kirchhoff, “Ueber den Einfluss der Wärmeleitung in einem Gase auf die Schallbewegung,” *Annalen der Physik*, 1868.
+
+[4] A. D. Pierce, *Acoustics: An Introduction to Its Physical Principles and Applications*, Acoustical Society of America, 1991.
+
+[5] U. Ingard, “On the theory and design of acoustic resonators,” *Journal of the Acoustical Society of America*, vol. 25, pp. 1037–1061, 1953.
+
+[6] C. Geuzaine and J.-F. Remacle, *Gmsh Reference Manual*, Version 4.15.1, 2024.  
+https://gmsh.info
+
+[7] C. Geuzaine, “tube_boundary_layer.py: Gmsh Python API example.”  
+https://gitlab.onelab.info/gmsh/gmsh
+
+[8] J. S. Dokken, *dolfinx-mpc: Multi-point constraints with FEniCSx*.  
+https://jsdokken.com/dolfinx_mpc
+
+[9] J. S. Dokken et al., “Stokes demo in dolfinx_mpc.”  
+https://github.com/jorgensd/dolfinx_mpc
+
+[10] FEniCS Project, *dolfinx documentation*.  
+https://docs.fenicsproject.org
+
+[11] A. B. Svizzero and J. S. Dokken, “Helmholtz equation implementation in FEniCSx.”  
+https://jsdokken.com/dolfinx-tutorial
+
+[12] K. Rasmussen, *Calculation methods for the physical properties of air used in the calibration of microphones*, Technical University of Denmark, 1997.
+
+[13] R. Mastrullo, P. Mazzei, V. Naso, R. Vanoli, *Fondamenti di trasmissione del calore*, Liguori Editore, 1991.
+
+[14] P. M. Morse and K. U. Ingard, *Theoretical Acoustics*, Princeton University Press, 1986.
