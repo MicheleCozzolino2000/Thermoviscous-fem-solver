@@ -121,7 +121,7 @@ An analytical estimate of the resonance frequency of the Helmholtz resonator is 
 
 - `resonance_estimate.py`
 
-This script computes the resonance frequency using an **equivalent acoustic model** that includes thermoviscous effects through the use of:
+This script computes the resonance frequency using an **equivalent acoustic model** that includes thermoviscous effects using an equivalent acoustic model based on::
 
 - equivalent density
 - equivalent bulk modulus
