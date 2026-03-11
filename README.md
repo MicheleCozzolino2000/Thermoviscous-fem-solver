@@ -159,7 +159,7 @@ Development of an **open-source finite element solver for thermoviscous acoustic
 Special thanks to the following people for their support and guidance during the development of this project:
 
 - Elio Di Giulio
-- [Antonio Baiano Svizzero](https://github.com/username)
+- [Antonio Baiano Svizzero](https://github.com/bayswiss)
 
 # References
 
