@@ -154,6 +154,10 @@ MSc Mechanical Engineering
 
 Development of an **open-source finite element solver for thermoviscous acoustics** aimed at modeling dissipative acoustic phenomena in confined fluid domains.
 
+## Credits
+
+- Elio Di Giulio
+- [Antonio Baiano Svizzero](https://github.com/username)
 
 # References
 
